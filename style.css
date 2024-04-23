@@ -4,7 +4,7 @@
     font-family: 'Roboto';
   }
   
-  .container {
+  header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,14 +21,12 @@
   
   li a {
     text-decoration: none;
-    color: black;
   }
   
    nav ul {
     display: flex;
     flex-direction: row;
-    gap: 24px;
-    
+    gap: 24px;   
   }
   
   .logo span {
@@ -38,13 +36,12 @@
   }
   
   .sub-title {
-    font-size: large;
-    letter-spacing: 2px;
+    font-size: 1.5rem;
+    letter-spacing: 20%;
     font-weight: bold;
-    
-  }
+}
   .title {
-    font-size: 12px;
+    font-size: 1rem;
   }
   
   .logo {
