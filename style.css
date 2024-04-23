@@ -4,46 +4,42 @@
     font-family: 'Roboto';
   }
   
-  header {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 32px 24px;
   }
   
-  .nav-bar {
+.nav-bar {
     display: flex;
   }
   
-  li {
+li {
     list-style-type: none;
   }
   
-  li a {
+li a {
     text-decoration: none;
   }
   
-   nav ul {
+nav ul {
     display: flex;
     flex-direction: row;
     gap: 24px;   
   }
   
-  .logo span {
+.logo span {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   
-  .sub-title {
+.sub-title {
     font-size: 1.5rem;
     letter-spacing: 20%;
     font-weight: bold;
 }
-  .title {
+.title {
     font-size: 1rem;
-  }
-  
-  .logo {
-    margin-left: 1%;
   }
