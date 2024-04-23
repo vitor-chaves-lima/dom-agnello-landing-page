@@ -1,0 +1,16 @@
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+
+.texto {
+    width: 33.33%;
+    display: inline-block;
+    font-family: Roboto;
+}
