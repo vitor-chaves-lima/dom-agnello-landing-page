@@ -46,12 +46,16 @@ li a {
   text-decoration: none;
 }
 
-.categories ul{
+.categories ul {
   display: flex;
+  justify-content: space-around;
+}
+
+.categories li {
   text-align: center;
 }
 
-.categories img{
+.categories img {
   width: 150px;
 }
 
