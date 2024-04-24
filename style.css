@@ -6,11 +6,32 @@ footer {
     width: 100%;
     position: fixed;
     bottom: 0;
+    font-family: Roboto;
+}
+
+.text {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.text ul {
+    list-style: none;
+    padding: 0;
 }
 
 
-.texto {
-    width: 33.33%;
-    display: inline-block;
-    font-family: Roboto;
+.texto ul li {
+    list-style: none;
+
+}
+
+.text1 {
+    text-align: center;
+}
+
+.container {
+    padding-inline: 200px;
 }
