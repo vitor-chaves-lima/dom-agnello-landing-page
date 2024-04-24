@@ -46,6 +46,15 @@ li a {
   text-decoration: none;
 }
 
+.categories ul{
+  display: flex;
+  text-align: center;
+}
+
+.categories img{
+  width: 150px;
+}
+
 footer {
   background-color: black;
   color: white;
