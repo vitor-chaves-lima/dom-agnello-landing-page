@@ -9,7 +9,7 @@ footer {
     font-family: Roboto;
 }
 
-.text {
+.site-map {
     display: flex;
     margin-bottom: 20px;
     padding: 0;
@@ -17,18 +17,18 @@ footer {
     justify-content: space-between;
 }
 
-.text ul {
+.site-map ul {
     list-style: none;
     padding: 0;
 }
 
 
-.texto ul li {
+.site-map ul li {
     list-style: none;
-
+    
 }
 
-.text1 {
+.copyright {
     text-align: center;
 }
 
