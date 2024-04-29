@@ -1,38 +1,69 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dom Agnello</title>
-    <link rel="stylesheet" href="app.css">
+    <title>Dropdown Example</title>
+    <style>
+        /* Estilos para o dropdown */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown select {
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content option {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content option:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Adicionando um atraso para fechar o dropdown */
+        .dropdown-content:hover {
+            display: block;
+        }
+
+        .dropdown:hover .dropdown-content:not(:hover) {
+            display: none;
+        }
+    </style>
 </head>
-
 <body>
-    <header>
-        <div class="container">
 
-            <div class="logo">
-                <span class="titulo">VINHERIA</span> 
-                <span class="sub-titulo"><strong>AGNELLO</strong></span>
-            </div>
-            <div class="nav-bar">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="">Categorias</a>
-                        </li>
-                        <li>
-                            <a href="">Vinhos premiados</a>
-                        </li>
-                        <li>
-                            <a href="">Imprensa</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
+<div class="dropdown">
+    <select>
+        <option value="item1">Item 1</option>
+        <option value="item2">Item 2</option>
+        <option value="item3">Item 3</option>
+    </select>
+    <div class="dropdown-content">
+        <option value="item1">Item 1</option>
+        <option value="item2">Item 2</option>
+        <option value="item3">Item 3</option>
+    </div>
+</div>
+
 </body>
-
 </html>
