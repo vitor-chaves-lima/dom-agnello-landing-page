@@ -6,12 +6,21 @@
     <link rel="stylesheet" href="./style.css" />
     <title>Vinheria Agnello</title>
   </head>
-  <body>
+  <body class="login">
     <header>
       <a href="#" class="logo">
         <span class="title">VINHERIA</span>
         <span class="sub-title">AGNELLO</span>
       </a>
+
+      
+      <form class="loginForm">
+        <h3>Login</h3>
+        <input type="text" placeholder="Login" id="login" class="loginInput">
+        <input type="password" placeholder="Senha" id="senha" class="loginInput">
+        <input type="submit" class="loginInput" onclick="logar()">
+      </form>
+
       <nav>
         <ul>
           <li>
@@ -194,5 +203,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="script.js"></script>
+
   </body>
 </html>
