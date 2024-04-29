@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinheria AGNELLO</title>
+    <link rel="stylesheet" href="../css/products.css">
+</head>
+
+<body>
+
+    <header>
+    <a href="#" class="logo">
+        <span class="title">VINHERIA</span>
+        <span class="sub-title">AGNELLO</span>
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a href="../../index.html#categories">Categorias</a>
+          </li>
+          <li>
+            <a href="../../index.html#featured">Vinhos premiados</a>
+          </li>
+          <li>
+            <a href="../../index.html#press">Imprensa</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <section class="product">
+                <h1>Estrela da Noite</h1>
+                <p>Espumante</p>
+                <img src="../img/estrela_da_noite.png" alt="Cereja-Real">
+                <p>R$ 2.000,00</p>
+            </section>
+
+
+
+            <section class="compra">
+                <section class="description">
+                    <p>Desfrute de um espumante brilhante, com borbulhas delicadas e aromas sedutores, ideal para celebrações inesquecíveis e momentos especiais.</p>
+                </section>
+
+                <div class="totalizator">
+
+                    <button onclick="Adicionar()">+</button >
+                    <label for="" id="amount">0</label>
+                    <button onclick="Subtrair()">-</button>
+                </div>
+
+
+                <div class="cupom">
+                    <label for="" id="value">Valor total dos itens é: 0</label>
+                    <label for="">Digite seu cumpo de desconto</label>
+                    <input type="text" id="cupom">
+                    <button onclick="Enviar()">CONFIRMAR </button>
+                </div>
+        </div>
+        </section>
+    </main>
+    <script src="../js/espumante.js"></script>
+</body>
+
+</html>
