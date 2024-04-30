@@ -6,6 +6,10 @@ a:hover {
   color: #000000;
 }
 
+a.page {
+  font-weight: bold;
+}
+
 .call-to-action {
   padding-block: 70px;
 }
