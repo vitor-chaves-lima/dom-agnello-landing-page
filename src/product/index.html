@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vinheria AGNELLO</title>
+    <link rel="stylesheet" href="../../public/css/fonts.css" />
+    <link rel="stylesheet" href="../../public/css/global.css" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="../home/index.html" class="logo">
+        <span class="title">VINHERIA</span>
+        <span class="sub-title">AGNELLO</span>
+      </a>
+    </header>
+
+    <section>
+      <div class="container">
+        <div class="content-wrapper">
+          <div class="showcase">
+            <img
+              src="../../public/assets/images/cereja_real.png"
+              alt="Cereja-Real"
+            />
+          </div>
+
+          <div class="information">
+            <h1>Cereja Real</h1>
+            <p>Vinho Tinto</p>
+
+            <p>
+              Desfrute da complexidade frutada e do aroma encantador, uma
+              experiência sensorial única em cada gole deste vinho especial.
+            </p>
+
+            <p class="price">R$ 1.200,00</p>
+
+            <div class="amount-selector">
+              <button onclick="decrementItem()">-</button>
+              <span id="amount">1</span>
+              <button onclick="incrementItem()">+</button>
+            </div>
+
+            <span class="value-text"
+              >Valor total dos itens é: <span id="value">R$ 1200.00</span></span
+            >
+
+            <div>
+              <label for="coupon-input">Digite seu cumpo de desconto</label>
+              <input type="text" id="coupon-input" min="1" />
+              <button onclick="validateCoupon()" id="coupon-button">
+                Validar cupom
+              </button>
+              <button
+                onclick="removeCoupon()"
+                id="remove-coupon-button"
+                disabled
+              >
+                Remover cupom
+              </button>
+            </div>
+
+            <button class="buy-button" onclick="buy()">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
