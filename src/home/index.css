@@ -204,3 +204,50 @@ footer {
 .copyright {
   text-align: center;
 }
+
+#age-confirmation-dialog[open] {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min-content;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: none;
+}
+
+#age-confirmation-dialog h2 {
+  width: 197px;
+  font-weight: bold;
+  font-size: 24px;
+  width: 100%;
+  text-align: center;
+}
+
+#age-confirmation-dialog p {
+  width: 227px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+#age-confirmation-dialog button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+#legal-age-btn {
+  width: 205px;
+  height: 40px;
+  border: 1px solid #000000 !important;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+dialog::backdrop {
+  background-color: #848484b0;
+}
