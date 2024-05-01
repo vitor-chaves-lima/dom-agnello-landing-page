@@ -9,6 +9,20 @@
     <title>Vinheria Agnello</title>
   </head>
   <body>
+    <dialog id="age-confirmation-dialog">
+      <h2>Você tem mais de 18 anos?</h2>
+      <p>
+        Este site contém informações não recomendadas para pessoas menores de
+        idade
+      </p>
+      <button id="legal-age-btn" onclick="closeDialog()">
+        Sou maior de idade
+      </button>
+      <button id="underage-btn" onclick="redirectUser()">
+        Sou menor de idade
+      </button>
+    </dialog>
+
     <header>
       <a href="#" class="logo">
         <span class="title">VINHERIA</span>
