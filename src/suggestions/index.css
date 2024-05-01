@@ -1,0 +1,11 @@
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.wine-selector-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}

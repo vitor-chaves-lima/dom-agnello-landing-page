@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../public/css/fonts.css" />
+    <link rel="stylesheet" href="../../public/css/global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Vinheria Agnello</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="../home/index.html" class="logo">
+        <span class="title">VINHERIA</span>
+        <span class="sub-title">AGNELLO</span>
+      </a>
+    </header>
+
+    <section>
+      <div class="container">
+        <div class="content-wrapper">
+          <div class="wine-selector-wrapper">
+            <p>Selecione um tipo de vinho</p>
+            <select id="wine-selector" onchange="selectWineType()">
+              <option value="wine-1">Tinto</option>
+              <option value="wine-2">Branco</option>
+              <option value="wine-3">Rosé</option>
+              <option value="wine-4">Espumante</option>
+            </select>
+          </div>
+
+          <h2>Sugestões</h2>
+
+          <ul id="suggestions-list">
+            <li>Bife grelhado</li>
+            <li>Queijo cheddar envelhecido</li>
+            <li>Risoto de cogumelos</li>
+            <li>Tábua de frios</li>
+            <li>Pizza de pepperoni</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
